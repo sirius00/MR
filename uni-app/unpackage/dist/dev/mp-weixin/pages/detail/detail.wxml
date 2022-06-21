@@ -1,0 +1,1 @@
+<view><view class="box2" hover-class="box2-active"><view class="box" hover-start-time="1000" hover-stay-time="1000" hover-class="box-active" hover-stop-propagation="true">我是一个盒子</view></view><button size="default">按钮</button><button size="mini">按钮</button><button type="primary" plain="{{true}}" loading="{{true}}">按钮</button></view>

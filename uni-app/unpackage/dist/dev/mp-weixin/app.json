@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/navigator/navigator",
+    "pages/list/list",
+    "pages/home/home",
+    "pages/uni-style/uni-style",
+    "pages/message/message",
+    "pages/index/index",
+    "pages/contact/contact",
+    "pages/detail/detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "demo",
+    "navigationBarBackgroundColor": "#F8E165",
+    "backgroundColor": "#8B7765",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#473C8B",
+    "backgroundColor": "#76EEC6",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/1_Goose.png",
+        "selectedIconPath": "./static/tabs/30_Lion.png"
+      },
+      {
+        "text": "信息",
+        "pagePath": "pages/message/message",
+        "iconPath": "static/tabs/13_Panda.png",
+        "selectedIconPath": "./static/tabs/3_Grizzly.png"
+      },
+      {
+        "text": "我们",
+        "pagePath": "pages/contact/contact",
+        "iconPath": "static/tabs/13_Panda.png",
+        "selectedIconPath": "./static/tabs/3_Grizzly.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
