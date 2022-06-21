@@ -1,6 +1,9 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页
 		{
+			"path": "pages/index/index"
+		},
+		{
 			"path": "pages/home/home"
 		},
 		{
@@ -27,9 +30,7 @@
 				}
 			}
 		},
-		{
-			"path": "pages/index/index"
-		},
+
 		{
 			"path": "pages/contact/contact"
 		},

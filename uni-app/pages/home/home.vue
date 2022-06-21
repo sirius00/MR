@@ -7,11 +7,16 @@
 		<br>
 		<button type="primary" @click="checkTest">切换test组件</button>
 		<test v-if="flag" :title="title" @myEven="getNum"></test>
+		<br>
+		<testA></testA>
+		<testB></testB>
 	</view>
 </template>
 
 <script>
 	import test from "../../components/test/test.vue"
+	import testA from "../../components/a.vue"
+	import testB from "../../components/b.vue"
 	export default {
 		data() {
 			return {
@@ -35,7 +40,11 @@
 				title: '组件通讯-父传子'
 			}
 		},
-
+		components:{
+			test,
+			testA,
+			testB
+		},
 		methods: {
 			clickHandle() {
 				console.log("click")

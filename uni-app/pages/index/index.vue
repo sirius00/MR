@@ -4,10 +4,12 @@
 		<view class="text-area">
 			<text class="title">{{title}}</text>
 		</view>
+		<uni-calendar lunar="" @change=""></uni-calendar>
 	</view>
 </template>
 
 <script>
+	
 	export default {
 		data() {
 			return {
